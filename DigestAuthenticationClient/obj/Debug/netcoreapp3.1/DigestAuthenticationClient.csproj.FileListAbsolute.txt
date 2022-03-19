@@ -1,0 +1,8 @@
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\bin\Debug\netcoreapp3.1\DigestAuthenticationClient.deps.json
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\bin\Debug\netcoreapp3.1\DigestAuthenticationClient.dll
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\obj\Debug\netcoreapp3.1\DigestAuthenticationClient.AssemblyInfoInputs.cache
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\obj\Debug\netcoreapp3.1\DigestAuthenticationClient.AssemblyInfo.cs
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\bin\Debug\netcoreapp3.1\DigestAuthenticationClient.pdb
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\obj\Debug\netcoreapp3.1\DigestAuthenticationClient.csproj.CoreCompileInputs.cache
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\obj\Debug\netcoreapp3.1\DigestAuthenticationClient.dll
+C:\Users\vulfh\source\repos\TechnoSoft\DigestAuthenticationClient\obj\Debug\netcoreapp3.1\DigestAuthenticationClient.pdb

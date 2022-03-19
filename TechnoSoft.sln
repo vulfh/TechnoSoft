@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDigestAuthentication", "TestDigestAuthentication\TestDigestAuthentication.csproj", "{14061BCE-2C4A-4A86-9EB3-B8674F7E21FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigestAuthenticationClient", "DigestAuthenticationClient\DigestAuthenticationClient.csproj", "{CAFFBFE5-28F3-4CDC-9B81-3D2E4D109161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14061BCE-2C4A-4A86-9EB3-B8674F7E21FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14061BCE-2C4A-4A86-9EB3-B8674F7E21FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14061BCE-2C4A-4A86-9EB3-B8674F7E21FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14061BCE-2C4A-4A86-9EB3-B8674F7E21FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFFBFE5-28F3-4CDC-9B81-3D2E4D109161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFFBFE5-28F3-4CDC-9B81-3D2E4D109161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFFBFE5-28F3-4CDC-9B81-3D2E4D109161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFFBFE5-28F3-4CDC-9B81-3D2E4D109161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DB9BDF3-96C9-48FE-919D-6D26DEF2DC5E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\TestDigestAuthentication.exe
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\TestDigestAuthentication.deps.json
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\TestDigestAuthentication.runtimeconfig.json
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\TestDigestAuthentication.runtimeconfig.dev.json
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\TestDigestAuthentication.dll
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\TestDigestAuthentication.pdb
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.csprojAssemblyReference.cache
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.AssemblyInfoInputs.cache
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.AssemblyInfo.cs
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.csproj.CoreCompileInputs.cache
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.dll
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.pdb
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.genruntimeconfig.cache
