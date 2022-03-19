@@ -1,9 +1,5 @@
-﻿using RestSharp;
-using RestSharp.Authenticators.Digest;
-using RestSharp.Serializers.Utf8Json;
-using System;
+﻿using System;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace DigestAuthenticationClient
 {
@@ -15,7 +11,7 @@ namespace DigestAuthenticationClient
 
         public string BaseUrl { get; private set; }
 
-        private RestClient _client;
+        private WebClient _client;
         public AuthenticatedClient(string baseUrl,string username,string password)
         {
             ServicePointManager.ServerCertificateValidationCallback +=
@@ -23,23 +19,16 @@ namespace DigestAuthenticationClient
             UserName = username;
             Password = password;
             BaseUrl = baseUrl;
-            _client = new RestClient(baseUrl)
-            {
-                Authenticator = new DigestAuthenticator(string.IsNullOrWhiteSpace(username) ? UserName : username,
-                                                       string.IsNullOrWhiteSpace(password) ? Password : password)
-            };
-
-
+          
         }
-        public async Task<string> PostJson<T>(string resource,T payload) where T:class
+        public string PostJson(string resource,string payload) 
         {
             try
             {
-                var request = new RestRequest(resource, Method.Post);
-                request.RequestFormat = DataFormat.Json;
-                var restRequest = request.AddJsonBody(payload);
-                var response = await _client.PostAsync(restRequest);
-                return response.Content;
+                using var client = new WebClient();
+                client.Headers[HttpRequestHeader.ContentType] = "application/json";
+                client.Credentials = new NetworkCredential(UserName, Password);
+                return client.UploadString(CombineResource(resource),payload);
             }
             catch (Exception ex)
             {
@@ -55,6 +44,14 @@ namespace DigestAuthenticationClient
                 _client.Dispose();
             }
             finally { }
+        }
+
+        private string CombineResource(string resource)
+        {
+            if (BaseUrl.EndsWith("/") || resource.StartsWith("/"))
+                return $"{BaseUrl}{resource}";
+            else
+                return $"{BaseUrl}/{resource}";
         }
     }
 }

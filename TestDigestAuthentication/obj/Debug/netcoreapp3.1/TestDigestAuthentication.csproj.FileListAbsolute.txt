@@ -11,3 +11,6 @@ C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcor
 C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.dll
 C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.pdb
 C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.genruntimeconfig.cache
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\DigestAuthenticationClient.dll
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\bin\Debug\netcoreapp3.1\DigestAuthenticationClient.pdb
+C:\Users\vulfh\source\repos\TechnoSoft\TestDigestAuthentication\obj\Debug\netcoreapp3.1\TestDigestAuthentication.csproj.CopyComplete

@@ -6,12 +6,13 @@ namespace TestDigestAuthentication
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
 
             AuthenticatedClient client = new AuthenticatedClient("http://localhost/api", "user", "password");
-            var response = await client.PostJson("upload",new { Foo = "foo", Bar = "bar", Quiz = "Quiz" });
-            Console.WriteLine("Hello World!");
+            var response = client.PostJson("upload","{'Foo':'Foo'}");
+            Console.WriteLine(response);
+            Console.ReadLine();
         }
     }
 }
